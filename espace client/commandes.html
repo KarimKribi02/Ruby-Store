@@ -7,27 +7,78 @@
     <title>espace - client</title>
     <link rel="stylesheet" href="service.css">
     <link rel="stylesheet" href="commandes-style.css">
+    <link rel="icon" type="image/x-icon" href="/Icons/desktop-computer.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <nav id="nav-bar">
+        <div class="nav-bar">
+            <a href="#nav-bar"><img class="home-img" src="../Images/logo.png" alt="logo" width="45px"
+                    loading="lazy"></a>
+            <div class="links">
+                <div class="drop-down">
+                    <a class="drop-btn" href="#">Appareils</a>
+                </div>
+                <div class="drop-down">
+                    <a class="drop-btn" href="#">Accessoires</a>
+                </div>
+                <div class="drop-down">
+                    <a class="drop-btn" href="#">Communaute</a>
+                </div>
+                <div class="drop-down">
+                    <a class="drop-btn" href="/Blog/index.html">OFPPT</a>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="cart-popdown">
+                    <a class="mag-icon" id="cart-btn" href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                    <div class="cart-popdown-cont">
+                        <div class="cart-prod">
+                            <div class="cart-prod-img">
+                                <img src="" alt="prod photo">
+                            </div>
+                            <div class="card-prod-info">
+                                <div class="cart-prod-title">
+                                    Samsung Galaxy S24 Ultra
+                                </div>
+                                <p class="price">9999.99 DH</p>
+                                <a class="del" href="#">SUPPRIMER</a>
+                            </div>
+                        </div>
+                        <hr class="divider">
+                        <div class="cart-pay-section">
+                            <hr>
+                            <a class="shop-prod" href="#">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <main class="commande-content">
         <div class="side-bar">
             <header class="h1">Mon compte</header>
             <ul>
                 <li><a class="link" href="service.html">Account Dashboard</a></li>
                 <li><a href="info.html">Informations du compte</a></li>
-                <li><a href="camet.html"> Camet d'adresse </a></li>
+                <!-- <li><a href="camet.html"> Camet d'adresse </a></li> -->
                 <li><a href="commandes.html">Mes commandes </a></li>
             </ul>
             <div class="line"></div>
-            <a class="log-out" href="#">Se dconnecter</a>
+            <a class="log-out" href="#">Se deconnecter</a>
         </div>
         <div class="history">
             <h1>HISTORIQUES COMMANDES </h1>
             <p> Aucune commande trouvée</p>
         </div>
     </main>
-    <!-- <footer>
+    
+    <footer>
         <div class="container">
             <div class="footer-content">
                 <h3>Contact Us</h3>
@@ -39,10 +90,10 @@
                 <h3>Quick Links</h3>
                 <ul class="list">
                     <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="">Appareils</a></li>
+                    <li><a href="">Accessoires</a></li>
+                    <li><a href="">Communaute</a></li>
+                    <li><a href="">Profile</a></li>
                 </ul>
             </div>
             <div class="footer-content">
@@ -58,5 +109,5 @@
         <div class="bottom-bar">
             <p>&copy; 2023 your company . All rights reserved</p>
         </div>
-    </footer> -->
+    </footer>
 </body>

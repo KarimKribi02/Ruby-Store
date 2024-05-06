@@ -1,11 +1,268 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ruby Store</title>
-    </head>
-    <body>
-        
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessoires</title>
+    <link rel="stylesheet" href="nos_accessoires_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--start header-->
+    <nav id="nav-bar">
+        <div class="nav-bar">
+            <a href="/index.html"><img class="home-img" src="../Images/logo.png" alt="logo" width="45px"
+                    loading="lazy"></a>
+            <div class="links">
+                <div class="drop-down">
+                    <a class="drop-btn" href="/PC/nosPC.html">Appareils</a>
+                </div>
+                <div class="drop-down">
+                    <a class="drop-btn" href="/Accessoires/nosAccessoires.html">Accessoires</a>
+                </div>
+                <div class="drop-down">
+                    <a class="drop-btn" href="/Blog/index.html">Communaute</a>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart-icon"></i></a>
+                <div class="popdown">
+                    <a class="pop-btn" href="#"><i class="fa-regular fa-circle-user"></i></a>
+                    <div class="popdown-cont">
+                        <a href="/espace_client/service.html">Profile</a>
+                        <a href="#">Sign in</a>
+                        <a href="/auth/login.html">Sign up</a>
+                        <a href="#">Log out</a>
+                    </div>
+                </div>
+                <!-- <i id="ico" class="fa-solid fa-bars " onclick=showSidebar() class="drop-down"></i> -->
+            </div>
+        </div>
+    </nav>
+<div>
+    
+</div>
+    <!--End header-->
+
+
+    <main>
+        <!--start intro-->
+        <!-- <section id="intro">
+            <div class="img">
+                <div>
+                    <h2>VOYAGER LAPTOP</h2>
+                    <a href="#">ACHETER</a>
+                </div>
+            </div>
+        </section> -->
+        <!--End intro-->
+        <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+        <section id="parent">
+            <div class="adapt">
+                <label for="check"  class="icon">REFINE</label>
+                <input type="checkbox" id="check" >
+           
+            <article class="first">
+                <div class="item2">
+                    <div class="wrapper">
+                        <header class="filtre">
+                            <h2>Price Range</h2>
+                        </header>
+                        <div class="price-input">
+                            <div class="field">
+                                <span>Min</span>
+                                <input type="number" class="input-min" value="2500">
+                            </div>
+                            <div class="separator">-</div>
+                            <div class="field">
+                                <span>Max</span>
+                                <input type="number" class="input-max" value="7500">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="title">Accessoires</div>
+                        <div>
+                            <input type="checkbox" name="Pc Gamer" id="first1">
+                            <label for="first1">Clavier</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="Pc Portable" id="first2">
+                            <label for="first2">Casque</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="Mobile" id="first3">
+                            <label for="first3">Sourie</label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <hr>
+                        <div class="title">AFFINER PAR</div>
+                        <div>
+                            <input type="checkbox" name="WINDOWS" id="first1">
+                            <label for="first1">Bluetooth</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="ANDROID " id="first2">
+                            <label for="first2">RGB</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="OS" id="first3">
+                            <label for="first3">Mécanique</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="IOS" id="first4">
+                            <label for="first4">Sans Fil</label>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            </div>
+
+            <!-- les prodiutes  -->
+
+            <div class="gallery">
+                <div class="content">
+                    <img src="casque/LOGITECH G/5.png" class="product-img" alt="">
+                    <h3 class="product-title">LOGITECH G - G335</h3>
+                    <p>Casque Gaming Léger - Noir Certifié Discord</p>
+                    <h6 class="price">500DH</h6>
+                    <button class="buy">Acheter</button>
+                </a>
+                </div>
+                <div class="content">
+                    
+                    <img src="clavier/LOGITECH G - G413 TKL/1.png" class="product-img" alt="">
+                    <h3 class="product-title">LOGITECH G - G413 TKL SE</h3>
+                    <p>Clavier Gaming Mécanique</p>
+                    <h6 class="price">960DH</h6>
+                    <button class="buy">Acheter</button>
+                    
+                </div>
+                <div class="content">
+                    <img src="sourie/LOGITECH G/4.png" class="product-img" alt="">
+                    <h3 class="product-title">LOGITECH G - Pro - Noir</h3>
+                    <p>Souris Gaming - Sans fil</p>
+                    <h6 class="price">1000DH</h6>
+                    <button class="buy">Acheter</button>
+
+                </div>
+                <div class="content">
+                    <a href="../espace produit/Sony WH.html">
+                    <img src="casque/Sony WH/3.png" class="product-img" alt="">
+                    <h3 class="product-title">Sony WH-CH520</h3>
+                    <p>Micro-casque supra-auriculaire Bluetooth Stereo bleu Suppression du bruit du microphone Affichage de la c</p>
+                    <h6 class="price">550DH</h6>
+                    </a>
+                    <button class="buy">Acheter</button>
+                </div>
+                <div class="content">
+                    <img src="clavier/SPIRIT OF GAMER/4.png" class="product-img" alt="">
+                    <h3 class="product-title">SPIRIT OF GAMER</h3>
+                    <p>Clavier Gamer Sans Fil RGB - Clavier TKL Compact 65% - Touches Semi-Mécanique dont 25 Anti-Ghosting</p>
+                    <h6 class="price">400DH</h6>
+                    <button class="buy">Acheter</button>
+
+                </div>
+                <div class="content">
+                    <img src="sourie/Gamer Filaire/2.png" class="product-img" alt="">
+                    <h3 class="product-title">Souris Gamer T90</h3>
+                    <p>Optique avec 6 DPI Réglable 1000-9200DPI, 6 LED Couleur Options, 8 Boutons</p>
+                    <h6 class="price">200DH</h6>
+                    <button class="buy">Acheter</button>
+
+                </div>
+                <div class="content">
+                    <img src="casque/Bose Casque/4.png" class="product-img" alt="">
+                    <h3 class="product-title">Bose Casque 700 Bluetooth</h3>
+                    <p>Headphones à réduction de bruit - Noir - Reconditionné - Excellent état</p>
+                    <h6 class="price">1450DH</h6>
+                    <button class="buy">Acheter</button>
+
+                </div>
+                <div class="content">
+                    <img src="clavier/XPERT/4.png" class="product-img" alt="">
+                    <h3 class="product-title">Spirit Of Gamer XPERT K1500</h3>
+                    <p>Clavier Gamer Mecanique Sans Fil & Bluetooth</p>
+                    <h6 class="price">850DH</h6>
+                    <button class="buy">Acheter</button>
+
+                </div>
+                <div class="content">
+                    <img src="sourie/RAZER/4.png" class="product-img" alt="">
+                    <h3 class="product-title">RAZER</h3>
+                    <p>Souris gaming - NAGA</p>
+                    <h6 class="price">600DH</h6>
+                    <button class="buy">Acheter</button>
+
+                </div>
+            </div>
+            <!-- les prodiutes  -->
+        </section>
+
+        <div class="cartk" id="cartk">
+            <h2 class="cartk-title">Your cart</h2>
+            <div class="cartk-content">
+                <!-- <div class="cartk-box">
+                   
+            </div>
+             -->
+            
+
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">0 DH</div>
+            </div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <div><i class="fa-solid fa-xmark close-cart" ></i></div>
+          </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <h3>Contact Us</h3>
+                    <p>Email:rubystore@example.com</p>
+                    <p>Phone:+212524404169</p>
+                    <p>Address:H2XP+F7H, Av. Al Adarissa,Marrakech</p>
+                </div>
+                <div class="footer-content">
+                    <h3>Quick Links</h3>
+                     <ul class="list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Informatique</a></li>
+                        <li><a href="">Accessoires</a></li>
+                        <li><a href="">Communaute</a></li>
+                        <li><a href="">Contact</a></li>
+                     </ul>
+                </div>
+                <div class="footer-content">
+                    <h3>Follow Us</h3>
+                    <ul class="social-icons">
+                     <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                     <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                     <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                     <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                    </div>
+            </div>
+            <div class="bottom-bar">
+                <p>&copy; 2023 your company . All rights reserved</p>
+            </div>
+        </footer>
+<script src="/PC/Cart.js"></script>
+    </main>
+</body>
+
 </html>

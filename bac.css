@@ -1,0 +1,64 @@
+
+
+.product-card-bg-1 {
+    background-image: url(../Images/Nizar/Keyboards/1.jpg);
+    background-size: cover;
+}
+
+
+.product-card-bg-2 {
+    background-image: url(../Images/Nizar/Headphones/2.jpg);
+    background-size: cover;
+}
+
+.category-bg-1 {
+    background-image: url(../Images/Nizar/gaming_pc/3.jpg);
+}
+
+
+.category-bg-2 {
+    background-image: url(../Images/Nizar/pc_portable/macbook.jpg);
+}
+
+
+.category-bg-3 {
+    background-image: url(../Images/Nizar/Mobile/3.jpg);
+}
+
+
+.category-bg-4 {
+    background-image: url(../Images/Nizar/Headphones/3.jpg);
+}
+
+
+.category-bg-5 {
+    background-image: url(../Images/Nizar/Keyboards/3.jpg);
+}
+
+
+.category-bg-6 {
+    background-image: url(../Images/razor.jpg);
+}
+
+
+.bg-1 {
+    background-image: url(../Images/Natural_Gaming_with_Plants.jpeg);
+    background-size: cover;
+}
+
+
+.bg-2 {
+    background-image: url(../Images/home_workspace.jpeg);
+    background-size: cover;
+}
+
+
+.bg-3 {
+    background-image: url(../Images/Gaming_Room.jpeg);
+    background-size: cover;
+}
+
+.bg-4 {
+    background-image: url(../Images/Minimal_Desk_Setups.jpeg);
+    background-size: cover;
+}

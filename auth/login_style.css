@@ -1,4 +1,10 @@
-*{
+:root {
+    --white: white;
+    --bordeau: #9e121b;
+    --my-grey: #f3f3f3;
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,7 +16,7 @@
     src: url(../fonts/Rubik-Font.ttf);
 }
 
-.container{
+.container {
     width: 100%;
     height: 100vh;
     background: linear-gradient(120deg, white, lightgray, red);
@@ -20,7 +26,7 @@
     position: relative;
 }
 
-.form-box{
+.form-box {
     border: 1px solid black;
     border-radius: 20px;
     width: 90%;
@@ -34,26 +40,26 @@
     text-align: center;
 }
 
-.form-box h1{
+.form-box h1 {
     font-size: 30px;
     margin-bottom: 60px;
-    color: #3c00a0;
+    color: var(--bordeau);
     position: relative;
 }
 
-.form-box h1::after{
+.form-box h1::after {
     content: "";
     width: 30px;
     height: 4px;
     border-radius: 3px;
-    background: #3c00a0;
+    background: var(--bordeau);
     position: absolute;
     bottom: -12px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.input-field{
+.input-field {
     background: #eaeaea;
     margin: 15px 0;
     border-radius: 3px;
@@ -61,7 +67,7 @@
     align-items: center;
 }
 
-input{
+input {
     width: 100%;
     background: transparent;
     border: none;
@@ -69,25 +75,37 @@ input{
     padding: 18px 15px;
 }
 
-form p{
+form p {
     text-align: left;
     font-size: 14px;
 }
 
-form p a{
+form p a {
     text-decoration: none;
-    color: #3c00a0;
+    color: var(--bordeau);
 }
 
-.btn-field{
+
+form p a:hover {
+    color: gray;
+}
+
+form p a:visited {
+    color: gray;
+}
+
+.btn-field {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.btn-field button{
-    flex-basis: 48%;
-    background: #3c00a0;
+.btn-field button {
+    /* flex-basis: 48%; */
+    padding: 5px 90px;
+    background: var(--bordeau);
     color: #fff;
     height: 40px;
     border-radius: 20px;
@@ -97,6 +115,6 @@ form p a{
     transition: background 1s;
 }
 
-.input-grp{
-    height: 280px;
+.input-grp {
+    height: 200px;
 }

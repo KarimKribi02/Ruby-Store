@@ -1,17 +1,74 @@
-:root{}
-
-.adresse-content{
-    display: flex;
-    width: 80%;
-    margin-left: 10vw;
-    margin-top: 10vh;
+:root {
+    --white: white;
+    --bordeau: #9e121b;
+    --my-grey: #f3f3f3;
 }
 
-input[type=submit]{
-    background-color: yellow;
+
+.adresse-content {
+    display: flex;
+    width: 90%;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adresse h3 {
+    margin-top: 20px;
+}
+
+.adresse input[type=submit] {
+    background-color: var(--bordeau);
     border: none;
     padding: 15px 20px;
+    color: var(--white);
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
     margin: 20px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1180px) {
+    .adresse-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .adresse-content {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .side-bar {
+        width: 99%;
+        margin-right: auto;
+        /* margin-top: 75px; */
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .adresse {
+        width: 95%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-info {
+        width: 60%;
+    }
+
+    footer{
+        position: relative;
+    }
+
 }

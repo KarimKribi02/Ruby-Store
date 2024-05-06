@@ -19,10 +19,17 @@ function backToTop() {
 }
 
 function initBtnActions() {
-    var btnCart = document.getElementById('cart-btn')
+    let btnCart = document.getElementById('cart-btn')
     btnCart.addEventListener('click', function(e) {
         alert('zalllllooo')
     }, false)
 }
 
-//initBtnActions();
+function myFunction() {
+    let x = document.getElementById("nav-bar");
+    if (x.className === "nav-bar") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav-bar";
+    }
+  } 
